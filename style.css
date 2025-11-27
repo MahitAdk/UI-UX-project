@@ -38,12 +38,12 @@ body {
 .song-item {
     background: #1a1a1a;
     padding: 16px;
-    border-radius: 12px;          /* more modern */
+    border-radius: 12px;         
     display: flex;
     align-items: center;
     gap: 14px;
     cursor: pointer;
-    transition: 0.2s ease;
+   
     border: 1px solid #222;
 }
 
@@ -107,9 +107,7 @@ body {
     border-radius: 16px;
     object-fit: cover;
     margin: 25px auto;
-    box-shadow:
-        0 10px 25px rgba(0,0,0,0.5),
-        0 0 20px rgba(135, 206, 250, 0.08);   /* subtle blue glow */
+   
 }
 
 /* TITLES */
@@ -145,7 +143,7 @@ body {
     height: 16px;
     background: #87cefa;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(135,206,250,0.5);
+   
 }
 
 .time-row {
@@ -191,7 +189,7 @@ body {
     border: none;
     cursor: pointer;
     transition: 0.2s ease;
-    box-shadow: 0 0 15px rgba(135,206,250,0.4);
+    
 }
 
 .play-btn:hover {
